@@ -4,3 +4,4 @@ clear @a
 effect clear @a
 execute as @r run function gto:game_start/spread
 origin random @a
+weather clear
