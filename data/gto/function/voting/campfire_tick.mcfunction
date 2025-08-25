@@ -1,0 +1,1 @@
+execute positioned ~ ~0.5 ~ as @e[type=item,distance=..0.5] if data entity @s Item.id at @s run function gto:voting/submit
