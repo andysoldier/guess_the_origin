@@ -1,0 +1,1 @@
+$scoreboard players add $(player) GTO_votes 1
