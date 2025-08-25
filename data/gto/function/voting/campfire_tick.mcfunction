@@ -1,1 +1,1 @@
-execute positioned ~ ~0.5 ~ as @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:paper"}}] at @s run function gto:voting/submit
+execute positioned ~ ~0.5 ~ as @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:paper"}}] at @s run function gto:voting/submit with entity @s Item.components
