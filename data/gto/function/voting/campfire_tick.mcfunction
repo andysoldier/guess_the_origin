@@ -1,1 +1,1 @@
-execute positioned ~ ~0.5 ~ as @e[type=item,distance=..0.5,nbt={Item:{id:"minecraft:paper"}}] at @s run function gto:voting/campfire_trigger with entity @s Item.components
+execute positioned ~ ~0.25 ~ as @e[type=item,distance=..0.75,nbt={Item:{id:"minecraft:paper"}}] at @s run function gto:voting/campfire_trigger with entity @s Item.components
