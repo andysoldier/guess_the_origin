@@ -7,4 +7,4 @@ worldborder set 250
 clear @a
 effect give @a saturation infinite
 origin set @a origins:origin origins:human
-title @a title "the game has ended"
+title @a title {"text":"The game has ended","bold":true}
