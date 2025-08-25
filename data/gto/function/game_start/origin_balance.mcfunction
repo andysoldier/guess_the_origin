@@ -1,0 +1,1 @@
+execute as @a[origin=merlin] run effect give @s water_breathing 400
