@@ -10,3 +10,6 @@ scoreboard objectives add _VAR dummy
 scoreboard objectives add GTO_votes dummy
 scoreboard objectives add GTO_dead deathCount
 scoreboard players set gto_gamestage _VAR 0
+
+team add truce
+team modify truce friendlyFire false

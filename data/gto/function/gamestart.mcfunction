@@ -8,3 +8,5 @@ weather clear
 scoreboard players set gto_gamestage _VAR 1
 time set day
 schedule function gto:voting/begin 1d replace
+team join truce @a
+schedule function gto:misc/team_manage 0.5d

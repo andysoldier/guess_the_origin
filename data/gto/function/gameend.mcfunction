@@ -9,3 +9,4 @@ clear @a
 effect give @a saturation infinite
 origin set @a origins:origin origins:human
 title @a title {"text":"The game has ended","bold":true}
+team leave @a
