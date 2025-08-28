@@ -8,4 +8,4 @@ clear @a
 give @a paper
 gamemode adventure @a[gamemode=survival]
 execute at @e[type=marker,name=gto_campfire] run function gto:game_start/build_campfire
-execute at @e[type=marker,name=gto_campfire] run spreadplayers ~ ~ 1 3
+execute at @e[type=marker,name=gto_campfire] run spreadplayers ~ ~ 1 3 false @a
