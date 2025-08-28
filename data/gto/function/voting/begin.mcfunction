@@ -2,6 +2,7 @@ execute if score gto_gamestage _VAR matches 2.. run function gto:voting/end
 
 scoreboard players set gto_gamestage _VAR 2
 execute as @a at @s run summon marker ~ ~ ~ {CustomName:"gto_player_save"}
+execute as @a at @s run scoreboard players operation @e[type=marker,sort=nearest,limit=1,distance=..10] GTO_a = @s GTO_playerId
 execute as @a at @s run data modify entity @e[type=marker,sort=nearest,limit=1] data.inventory set from entity @s Inventory
 execute as @a at @s run data modify entity @e[type=marker,sort=nearest,limit=1] data.origin set from entity @s "origins:origin".OriginLayers
 execute as @a at @s run data modify entity @e[type=marker,sort=nearest,limit=1] data.uuid set from entity @s UUID
