@@ -1,1 +1,1 @@
-$scoreboard players add $(player) GTO_votes 1
+$scoreboard players add @a[name=$(player)] GTO_votes 1
