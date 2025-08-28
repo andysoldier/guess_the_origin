@@ -6,8 +6,17 @@ setblock 0 100 0 structure_block{metadata: "", mirror: "NONE", ignoreEntities: 1
 setblock 0 99 0 redstone_block
 
 #scores setup
-scoreboard objectives add _VAR dummy
-scoreboard objectives add GTO_votes dummy
+scoreboard objectives add _VAR dummy "Global Variables"
+scoreboard objectives add GTO_a dummy "a"
+scoreboard objectives add GTO_b dummy "b"
+scoreboard objectives add GTO_c dummy "c"
+scoreboard objectives add GTO_i dummy "i"
+scoreboard objectives add GTO_j dummy "j"
+scoreboard objectives add GTO_k dummy "k"
+scoreboard objectives add GTO_x dummy "x"
+scoreboard objectives add GTO_y dummy "y"
+scoreboard objectives add GTO_z dummy "z"
+scoreboard objectives add GTO_votes dummy "Votes"
 scoreboard objectives add GTO_dead deathCount
 scoreboard players set gto_gamestage _VAR 0
 
