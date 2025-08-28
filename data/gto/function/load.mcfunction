@@ -1,3 +1,5 @@
+execute if score gto_gamestage _VAR matches 1.. run function gto:gameend
+
 gamerule announceAdvancements false
 gamerule doImmediateRespawn true
 effect give @a saturation infinite

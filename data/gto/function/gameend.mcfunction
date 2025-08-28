@@ -1,3 +1,5 @@
+execute if score gto_gamestage _VAR matches 2.. run function gto:voting/end
+
 gamemode adventure @a
 setworldspawn 0 100 0
 spawnpoint @a 0 100 0
