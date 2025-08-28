@@ -13,3 +13,6 @@ effect give @a saturation infinite
 origin set @a origins:origin origins:human
 title @a title {"text":"The game has ended","bold":true}
 team leave @a
+
+# Clear Player IDs
+scoreboard players reset @a GTO_playerId

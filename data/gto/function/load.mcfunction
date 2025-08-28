@@ -19,6 +19,7 @@ scoreboard objectives add GTO_x dummy "x"
 scoreboard objectives add GTO_y dummy "y"
 scoreboard objectives add GTO_z dummy "z"
 scoreboard objectives add GTO_votes dummy "Votes"
+scoreboard objectives add GTO_playerId dummy "Player Number"
 scoreboard objectives add GTO_dead deathCount
 scoreboard players set gto_gamestage _VAR 0
 
