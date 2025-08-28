@@ -6,4 +6,6 @@ execute as @a at @s run data modify entity @e[type=marker,sort=nearest,limit=1] 
 origin set @a origins:origin origins:human
 clear @a
 give @a paper
+gamemode adventure @a[gamemode=survival]
+execute at @e[type=marker,name=gto_campfire] run function gto:game_start/build_campfire
 execute at @e[type=marker,name=gto_campfire] run spreadplayers ~ ~ 1 3
