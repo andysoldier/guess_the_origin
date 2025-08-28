@@ -1,5 +1,6 @@
 spreadplayers 0.0 0.0 50 10000 false @s
 execute at @s run function gto:game_start/build_campfire
+summon marker ~ ~ ~ {CustomName:"gto_campfire"}
 setworldspawn ~ ~ ~
 execute at @s run worldborder center ~ ~
 worldborder set 250
