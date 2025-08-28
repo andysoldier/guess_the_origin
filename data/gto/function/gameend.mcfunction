@@ -1,5 +1,9 @@
 execute if score gto_gamestage _VAR matches 2.. run function gto:voting/end
 
+# Destroy campfire
+execute at @e[type=marker,name=gto_campfire] run setblock ~ ~ ~ campfire[lit=false]
+kill @e[type=marker,name=gto_campfire]
+
 gamemode adventure @a
 setworldspawn 0 100 0
 spawnpoint @a 0 100 0
