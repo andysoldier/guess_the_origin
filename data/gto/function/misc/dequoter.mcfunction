@@ -1,1 +1,1 @@
-$data modify entity @s Item.components."minecraft:custom_data".name set value $(name)
+$data modify entity @s Item.components."minecraft:custom_data" set value {name:$(name)}
